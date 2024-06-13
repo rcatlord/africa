@@ -64,5 +64,5 @@ map <- leaflet(africa) |>
                                    "Check travel advice before travelling"), opacity = 0.8) |>
   addControl(paste0("<strong>Latest FCDO travel advice</strong>"), position = "topright")
 
-saveWidget(map, "index.html")
+saveWidget(map, "index.html", title = "Latest FCDO travel advice")
 
